@@ -159,6 +159,30 @@ input {
     font-size: 24px;
     margin: 5px;
 }
+#menu {
+    position: fixed;
+    top: 40px;
+    left: 60px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 99;
+}
+.menu-item {
+    color: #FEAE1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.menu-item:hover {
+    color: white;
+}
+.hide-menu {
+    display: none;
+}
 #menu-arrow {
     position: absolute;
     top: 15px;
@@ -166,6 +190,8 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
 }
 #searchbar {
     display: inline-block;
@@ -207,29 +233,32 @@ input {
 #login {
     right: 30px;
 }
-#menu {
+#newpost {
+    right: 130px;
+}
+#profile {
+    right: 30px;
+    cursor: default;
+}
+#profile-menu {
     position: fixed;
     top: 40px;
-    left: 60px;
+    right: 35px;
     background-color: black;
     opacity: 0.9;
     z-index: 99;
 }
-.menu-item {
-    color: #FEAE1B;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 5px;
-    cursor: pointer;
+#profile-menu-pic {
+    height: 80px;
+    width: auto;
+    margin: 10px;
+    border: solid 2px #FEAE1B;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
 }
-.menu-item:hover {
-    color: white;
-}
-.hide-menu {
-    display: none;
+#profile-menu-pic:hover {
+    border: solid 2px white;
 }
 
 /*Banner*/
@@ -431,6 +460,11 @@ td {
 }
 #rawrani:hover {
     opacity: 0.7;
+}
+select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
 }
 textarea {
     height: 100px;

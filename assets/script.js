@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-//Menu Toggle
+//Nav Menu Toggle
 $("#logo").hover(function() {
   if ($("#menu").hasClass("hide-menu")) {
     $('#logo').css('color', "white");
@@ -17,9 +17,23 @@ $("#main-container") .hover(function() {
   $('#logo').css('color', "#FEAE1B");
 });
 
-$("#main-container") .click(function() {
-  $("#menu").addClass("hide-menu");
-  $('#logo').css('color', "#FEAE1B");
+//Profile Menu Toggle
+$("#profile").hover(function() {
+  if ($("#profile-menu").hasClass("hide-menu")) {
+    $('#profile').css('color', "white");
+    $('#profile').css('border', "solid 2px white");
+    setTimeout(function() {
+      $("#profile-menu").removeClass("hide-menu");
+    }, 300);
+  } else {
+    return false;
+  }
+});
+
+$("#main-container") .hover(function() {
+  $("#profile-menu").addClass("hide-menu");
+  $('#profile').css('color', "#FEAE1B");
+  $('#profile').css('border', "solid 2px #FEAE1B");
 });
 
 //Login Toggle
