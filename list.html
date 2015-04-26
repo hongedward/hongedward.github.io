@@ -1,0 +1,594 @@
+<html>
+<head>
+<title>Lampost | Edo's Top 5 Favorite Anime</title>
+<link rel="stylesheet" type="text/css" href="assets/style.css" />
+<script src="assets/jquery-1.9.1.js"></script>
+<script src="assets/script.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- Background -->	
+<div id="background">
+	<img class="bg-resize" src="assets/img/bg.png">
+</div>
+
+<!-- Modal Box -->
+<div id="modal-container">
+	<div id="modal-overlay"></div>
+	<div id="modal-box">
+		<div id="modal-header">Login</div>
+		<div id="modal-content">
+			<input type = "text" class = "modal-input" placeholder = "Username or Email" />
+			<input type = "password" class = "modal-input" id="password" placeholder = "Password" />
+		</div>
+		<div id="modal-footer">
+			<a href="profile.html"><div class="button" id="submit">Submit</div></a>
+			<div class="button" id="cancel">Cancel</div>
+		</div>
+	</div>
+</div>
+
+<div id="main-container">
+	<!--Topbar-->
+	<div id="topbar-container">
+		<a href="index.html">
+			<img id="circle-logo" src="assets/img/logo.png">
+		</a>	
+		<div id="logo">
+			<div id="lamppost-logo">Lamppost</div>
+			<div id="menu-arrow"> > </div>
+		</div>	
+		<div id="searchbar">
+			<input type="text" class="search-input" placeholder="Search posts, users, and more!"><div id="search-button"><img class="icon-resize" src="assets/img/search.png"></div>
+		</div>
+		<div class="button" id="signup">Sign Up</div>
+		<div class="button" id="login">Log In</div>
+	</div>
+	<nav class="hide-menu" id="menu">
+		<a href="index.html"><div class="menu-item">Home</div></a>
+		<div class="menu-item">Submit Art</div>
+		<div class="menu-item">Advanced Search</div>
+	</nav>
+
+	<!--Banner-->	
+	<div id="banner-overlay"></div>
+	<img class="banner-resize" src="assets/img/fma.png">
+	<div id="banner-text">
+		<div id="heading">Edo's</div>
+		<div id="subheading">TOP 5 FAVORITE ANIME</div>
+	</div>
+  <div id="profile-container1">
+    <a href="profile.html"><img src="assets/img/p5.jpg" id="profile-pic"></a>
+    <div class="button" id="followuser">Follow User</div>
+  </div>  
+		<div id="banner-corner">Posted: April 20, 2015 | Last edited: April 26, 2015 | 0 comments</div>
+
+	<!--Content-->
+	<div id="content-underlay"></div>
+
+	<div id="list-section">1. BAKEMONOGATARI</div>
+	<img src="assets/img/bakemonogatari/Bakemonogatari.png" id="series">
+	<div id="list-content">
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">PRODUCTION</td>
+  		</tr>
+  		<tr>
+    		<td><b>Studio:</b> Shaft</td>
+    		<td><b>Year:</b> 2009</td>
+    		<td><b>Episodes:</b> 15</td>
+    		<td><b>Original Creator:</b> Nisio Isin</td>
+  		</tr>
+  		<tr>
+    		<td><b>Director:</b> Akiyuki Shinbo</td> 
+    		<td><b>Music:</b> Satoru Kosaki</td>
+    		<td><b>Original Design:</b> Vofan</td>
+    		<td><b>Character Design:</b> Akio Watanabe</td>
+  		</tr>
+		</table>
+		<table style="width:100%">
+		<tr>
+			<td><b>Genres:</b> comedy, drama, mystery, romance, supernatural</td>
+		</tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">MAIN CAST</td>
+  		</tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/bakemonogatari/Koyomi.jpg"></td>
+    		<td><img id="character" src="assets/img/bakemonogatari/Senjougahara.jpg"></td>
+        <td><img id="character" src="assets/img/bakemonogatari/Hanekawa.jpg"></td>
+    		<td><img id="character" src="assets/img/bakemonogatari/Hachikuji.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Koyomi Araragi</td>
+    		<td>Hitagi Senjougahara</td>
+        <td>Tsubasa Hanekawa</td> 
+    		<td>Mayoi Hachikuji</td>
+  		</tr>
+      <tr>
+        <td>CV: Hiroshi Kamiya</td>
+        <td>CV: Chiwa Saito</td>
+        <td>CV: Yui Horie</td> 
+        <td>CV: Emiri Kato</td>
+      </tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/bakemonogatari/Kanbaru.jpg"></td>
+        <td><img id="character" src="assets/img/bakemonogatari/Sengoku.jpg"></td>
+        <td><img id="character" src="assets/img/bakemonogatari/Oshino.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Suruga Kanbaru</td> 
+        <td>Nadeko Sengoku</td>
+        <td>Meme Oshino</td>
+  		</tr>
+      <tr>
+        <td>CV: Miyuki Sawashiro</td> 
+        <td>CV: Kana Hanazawa</td>
+        <td>CV: Takahiro Sakurai</td>
+      </tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">SYNOPSIS</td>
+  		</tr>
+      <tr>
+    		<td>
+          <i>"People have to save themselves. One person saving another is impossible."</i> -Meme Oshino
+          <br>
+          <br>High school senior Koyomi Araragi just experienced a hellish Spring Break in which he was turned into a vampire.  Having reclaimed most of his humanity with the help of the enigmatic Meme Oshino, Araragi encounters a series of girls who have also been afflicted by Kaii (supernatural oddities).  Senjougahara, whose weightlessness defies physics; Hachikuji, who can never find her way home; Kanbaru, who has been cursed by a "Monkey's Paw"; Sengoku, who's being strangled by an invisible snake; and Hanekawa, whose body is possessed by a cat.  One by one, Araragi deals with their problems, their stories, and their secrets.  
+        </td>
+      </tr>
+		</table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">REVIEW</td>
+      </tr>
+      <tr>
+        <td>
+          Top-notch storytelling with verbose characters.
+        </td>
+      </tr>
+    </table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">LINKS</td>
+  		</tr>
+  		<tr>
+    		<td><b>Watch:</b> <a id="kissani" href="http://kissanime.com/Anime/Bakemonogatari" target="_blank">KissAnime</a> | <a id="rawrani" href="http://rawranime.tv/196-bakemonogatari/" target="_blank">RawrAnime</a></td>
+  		</tr>
+		</table>
+	</div>
+
+	<div id="list-section">2. FULLMETAL ALCHEMIST: BROTHERHOOD</div>
+	<img src="assets/img/fma/FMAB.jpg" id="series">
+	<div id="list-content">
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">PRODUCTION</td>
+  		</tr>
+  		<tr>
+    		<td><b>Studio:</b> Bones</td>
+    		<td><b>Year:</b> 2009-2010</td>
+    		<td><b>Episodes:</b> 64</td>
+    		<td><b>Original Creator:</b> Hiromu Arakawa</td>
+  		</tr>
+  		<tr>
+    		<td><b>Director:</b> Yasuhiro Irie</td> 
+    		<td><b>Music:</b> Akira Senju</td>
+    		<td><b>Original Design:</b> Hiromu Arakawa</td>
+    		<td><b>Character Design:</b> Hiroki Kanno</td>
+  		</tr>
+		</table>
+		<table style="width:100%">
+		<tr>
+			<td><b>Genres:</b> action, adventure, drama, fantasy, mystery</td>
+		</tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">MAIN CAST</td>
+  		</tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/fma/Ed.jpg"></td>
+    		<td><img id="character" src="assets/img/fma/Al.jpg"></td>
+    		<td><img id="character" src="assets/img/fma/Winry.jpg"></td>
+        <td><img id="character" src="assets/img/fma/Mustang.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Edward Elric</td>
+    		<td>Alphonse Elric</td> 
+    		<td>Winry Rockbell</td>
+        <td>Roy Mustang</td>
+  		</tr>
+      <tr>
+        <td>CV: Romi Park</td>
+        <td>CV: Rie Kugimiya</td> 
+        <td>CV: Megumi Takamoto</td>
+        <td>CV: Shinichiro Miki</td>
+      </tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/fma/Scar.jpg"></td>
+    		<td><img id="character" src="assets/img/fma/Lin.jpg"></td>
+        <td><img id="character" src="assets/img/fma/Hohenheim.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Scar</td> 
+    		<td>Lin Yao</td>
+        <td>Van Hohenheim</td>
+  		</tr>
+      <tr>
+        <td>CV: Kenta Miyake</td> 
+        <td>CV: Mamoru Miyano</td>
+        <td>CV: Unshou Ishizuka</td>
+      </tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">SYNOPSIS</td>
+  		</tr>
+  		<tr>
+    		<td>
+          <i>"Humankind cannot gain anything without first giving something in return. To obtain, something of equal value must be lost. That is Alchemy's first law of Equivalent Exchange. In those days, we really believed that to be the world's one and only truth."</i> 
+          <br>-Alphonse Elric
+          <br>
+          <br>Mankind has harnessed the power of alchemy, the scientific art of manipulating matter with natural energy.  As children, brothers Edward and Alphonse Elric attempted the alchemic taboo of Human Transmutation, believing they could ressurect their deceased mother - and paid dearly for their naivet&eacute;.  Now, Edward has automail prothetics for his right arm and left leg, and Alphonse's soul is bound to a suit of armor that feels neither pain nor warmth.  In order to reclaim their original bodies, the Elric brothers embark on a journey to find the legendary Philosopher's Stone, a mysterious artifact rumored to allow its user to bypass the law of Equivalent Exchange.  
+        </td>
+		</table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">REVIEW</td>
+      </tr>
+      <tr>
+        <td>
+          The epitome of Shonen anime.
+        </td>
+      </tr>
+    </table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">LINKS</td>
+  		</tr>
+  		<tr>
+    		<td><b>Watch:</b> <a id="kissani" href="http://kissanime.com/Anime/Fullmetal-Alchemist-Brotherhood" target="_blank">KissAnime</a> | <a id="rawrani" href="http://rawranime.tv/505-fullmetal-alchemist-brotherhood/" target="_blank">RawrAnime</a></td>
+  		</tr>
+		</table>
+	</div>
+
+	<div id="list-section">3. STEINS;GATE</div>
+	<img src="assets/img/steinsgate/steinsgate.jpg" id="series">
+	<div id="list-content">
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">PRODUCTION</td>
+  		</tr>
+  		<tr>
+    		<td><b>Studio:</b> White Fox</td>
+    		<td><b>Year:</b> 2011</td>
+    		<td><b>Episodes:</b> 24</td>
+    		<td><b>Original Creators:</b> 5pb., Nitroplus</td>
+  		</tr>
+  		<tr>
+    		<td><b>Directors:</b> Hiroshi Hamasaki,<br>Takuya Sato</td> 
+    		<td><b>Music:</b> Takeshi Abo,<br>Jun Murakami</td>
+    		<td><b>Original Design:</b> huke</td>
+    		<td><b>Character Design:</b> Kyuta Sakai</td>
+  		</tr>
+		</table>
+		<table style="width:100%">
+		<tr>
+			<td><b>Genres:</b> drama, mystery, psychological, science fiction, thriller</td>
+		</tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">MAIN CAST</td>
+  		</tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/steinsgate/Okabe.jpg"></td>
+    		<td><img id="character" src="assets/img/steinsgate/Mayuri.jpg"></td>
+    		<td><img id="character" src="assets/img/steinsgate/Kurisu.jpg"></td>
+        <td><img id="character" src="assets/img/steinsgate/Daru.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Rintaro Okabe</td>
+    		<td>Mayuri Shiina</td> 
+    		<td>Kurisu Makise</td>
+        <td>Itaru Hashida</td>
+  		</tr>
+      <tr>
+        <td>CV: Mamoru Miyano</td>
+        <td>CV: Kana Hanazawa</td> 
+        <td>CV: Asami Imai</td>
+        <td>CV: Tomokazu Seki</td>
+      </tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/steinsgate/Suzuha.jpg"></td>
+    		<td><img id="character" src="assets/img/steinsgate/Moeka.jpg"></td>
+        <td><img id="character" src="assets/img/steinsgate/Faris.jpg"></td>
+        <td><img id="character" src="assets/img/steinsgate/Ruka.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Suzuha Amane</td> 
+    		<td>Moeka Kiryu</td>
+        <td>Faris "Nyan-nyan"</td>
+        <td>Ruka Urushibara</td> 
+  		</tr>
+      <tr>
+        <td>CV: Yukari Tamura</td> 
+        <td>CV: Saori Goto</td>
+        <td>CV: Halko Momoi</td>
+        <td>CV: Yu Kobayashi</td> 
+      </tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">SYNOPSIS</td>
+  		</tr>
+  		<tr>
+    		<td>
+          <i>"History dictates that it is the wise who are most foolish."</i>
+          <br>-Rintaro Okabe
+          <br>
+          <br>Self-proclaimed mad scientist (and broke college student) Rintaro Okabe runs the "Future Gadget Laboratory" in his one-room apartment with his roommate, super hacker Itaru "Daru" Hashida.  When the two accidentally invent a microwave that can send text messages to the past, their peaceful days are at an end.  A desperate struggle to alter history ensues after the lab and its members become targeted by a malevolent organization in pursuit of time travel technology.  
+        </td>
+      </tr>
+		</table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">REVIEW</td>
+      </tr>
+      <tr>
+        <td>
+          The time-travel genre done right.
+        </td>
+      </tr>
+    </table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">LINKS</td>
+  		</tr>
+  		<tr>
+    		<td><b>Watch:</b> <a id="kissani" href="http://kissanime.com/Anime/Steins-Gate" target="_blank">KissAnime</a> | <a id="rawrani" href="http://rawranime.tv/105-steinsgate/" target="_blank">RawrAnime</a></td>
+  		</tr>
+		</table>
+	</div>
+
+	<div id="list-section">4. PSYCHO-PASS</div>
+	<img src="assets/img/psychopass/psychopass.jpg" id="series">
+	<div id="list-content">
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">PRODUCTION</td>
+  		</tr>
+  		<tr>
+    		<td><b>Studio:</b> I.G. Production</td>
+    		<td><b>Year:</b> 2012-2013</td>
+    		<td><b>Episodes:</b> 22</td>
+    		<td><b>Original Creator:</b> Gen Urobuchi</td>
+  		</tr>
+  		<tr>
+    		<td><b>Director:</b> Katsuyuki Motohiro</td> 
+    		<td><b>Music:</b> Yugo Kanno</td>
+    		<td><b>Original Design:</b> Akira Amano</td>
+    		<td><b>Character Design:</b> Kyoji Asano</td>
+  		</tr>
+		</table>
+		<table style="width:100%">
+		<tr>
+			<td><b>Genres:</b> action, mystery, psychological, science fiction, thriller</td>
+		</tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">MAIN CAST</td>
+  		</tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/psychopass/Akane.jpg"></td>
+    		<td><img id="character" src="assets/img/psychopass/Kogami.jpg"></td>
+    		<td><img id="character" src="assets/img/psychopass/Makishima.jpg"></td>
+        <td><img id="character" src="assets/img/psychopass/Ginoza.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Akane Tsunemori</td>
+    		<td>Shinya Kogami</td> 
+    		<td>Shogo Makishima</td>
+        <td>Nobuchika Ginoza</td>
+  		</tr>
+      <tr>
+        <td>CV: Kana Hanazawa</td>
+        <td>CV: Tomokazu Seki</td> 
+        <td>CV: Takahiro Sakurai</td>
+        <td>CV: Kenji Nojima</td>
+      </tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/psychopass/Kagari.jpg"></td>
+    		<td><img id="character" src="assets/img/psychopass/Masaoka.jpg"></td>
+        <td><img id="character" src="assets/img/psychopass/Yayoi.jpg"></td>
+        <td><img id="character" src="assets/img/psychopass/Shion.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Shusei Kagari</td> 
+    		<td>Tomomi Masaoka</td>
+        <td>Yayoi Kunizuka</td> 
+        <td>Shion Karanomori</td>
+  		</tr>
+      <tr>
+        <td>CV: Akira Ishida</td> 
+        <td>CV: Kinryu Arimoto</td>
+        <td>CV: Shizuka Itou</td> 
+        <td>CV: Miyuki Sawashiro</td>
+      </tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">SYNOPSIS</td>
+  		</tr>
+  		<tr>
+    		<td>
+          <i>"I think the only time people really have value is when they act according to their own will."</i> -Shogo Makishima
+          <br>
+          <br>The year is 2112. Japan is governed by a supercomputer known as the Sibyl System, which can instantly quantify a person's state of mind.  The police, who act on Sibyl's orders, are split into two categories: Inspectors, latent criminals employed to hunt their own kind, and Enforcers, supervisors who keep Inspectors in line.  Each officer is issued a Dominator, a gun that measures the target's "crime coefficient" (their capacity and desire to commit crime) at gunpoint; the safety is unlocked only if the coefficient is sufficiently high.  The story centers around Akane Tsunemori, a rookie Enforcer, and Shinya Kogami, an Inspector hellbent on revenge.
+        </td>
+      </tr>
+		</table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">REVIEW</td>
+      </tr>
+      <tr>
+        <td>
+          Edgy, philosophical, and one hell of a ride.
+        </td>
+      </tr>
+    </table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">LINKS</td>
+  		</tr>
+  		<tr>
+    		<td><b>Watch:</b> <a id="kissani" href="http://kissanime.com/Anime/Psycho-Pass" target="_blank">KissAnime</a> | <a id="rawrani" href="http://rawranime.tv/188-psycho-pass/" target="_blank">RawrAnime</a></td>
+  		</tr>
+		</table>
+	</div>
+
+	<div id="list-section">5. DEATH PARADE</div>
+	<img src="assets/img/deathparade/deathparade.jpg" id="series">
+	<div id="list-content">
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">PRODUCTION</td>
+  		</tr>
+  		<tr>
+    		<td><b>Studio:</b> Madhouse</td>
+    		<td><b>Year:</b> 2015</td>
+    		<td><b>Episodes:</b> 12</td>
+  		</tr>
+  		<tr>
+    		<td><b>Director:</b> Yuzuru Tachikawa</td> 
+    		<td><b>Music:</b> Yuuki Hayashi</td>
+    		<td><b>Character Design:</b> Shinichi Kurita</td>
+  		</tr>
+		</table>
+		<table style="width:100%">
+		<tr>
+			<td><b>Genres:</b> drama, mystery, psychological, supernatural</td>
+		</tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">MAIN CAST</td>
+  		</tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/deathparade/Decim.jpg"></td>
+    		<td><img id="character" src="assets/img/deathparade/Chiyuki.jpg"></td>
+    		<td><img id="character" src="assets/img/deathparade/Nona.jpg"></td>
+        <td><img id="character" src="assets/img/deathparade/Clavis.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Decim</td>
+    		<td>"Black-haired Woman"</td> 
+    		<td>Nona</td>
+        <td>Clavis</td>
+  		</tr>
+      <tr>
+        <td>CV: Tomoaki Maeno</td>
+        <td>CV: Asami Seto</td> 
+        <td>CV: Rumi Ookubo</td>
+        <td>CV: Kouki Uchiyama</td>
+      </tr>
+  		<tr>
+    		<td><img id="character" src="assets/img/deathparade/Ginti.jpg"></td>
+        <td><img id="character" src="assets/img/deathparade/Mayu.jpg"></td>
+        <td><img id="character" src="assets/img/deathparade/Oculus.jpg"></td>
+        <td><img id="character" src="assets/img/deathparade/Quin.jpg"></td>
+  		</tr>
+  		<tr id="character-names">
+    		<td>Ginti</td>
+        <td>Mayu</td> 
+    		<td>Oculus</td>
+        <td>Quin</td>
+  		</tr>
+      <tr>
+        <td>CV: Yoshimasa Hosoya</td>
+        <td>CV: Atsumi Tanezaki</td> 
+        <td>CV: Tessho Genda</td>
+        <td>CV: Ryoko Shiraishi</td>
+      </tr>
+		</table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title"><b>SYNOPSIS</b></td>
+  		</tr>
+  		<tr>
+    		<td>
+          <i>"Humans all behave the same way, like idiots. They all forget that someday, they're gonna die, so the moment they come face to face with death, they cling to life."</i> -Ginti
+          <br>
+          <br>After humans die, they are sent to either Heaven or Hell.  But sometimes, the destination they deserve is not so clear.   Such morally ambiguous souls are sent to Quindecim, a bar that exists between the worlds of the living and the dead.  There, humans play a "game with their lives on the line" under the watchful eyes of the bartender Decim, who draws out the players' true natures in order to judge who will be reincarnated and who will be sent to the void.
+        </td>
+      </tr>
+		</table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">REVIEW</td>
+      </tr>
+      <tr>
+        <td>
+          Not sure if you're interested?  Watch the original OVA, Death Billiards, first.
+        </td>
+      </tr>
+    </table>
+		<table style="width:100%">
+  		<tr>
+    		<td id="list-title">LINKS</td>
+  		</tr>
+  		<tr>
+    		<td><b>Watch:</b> <a id="kissani" href="http://kissanime.com/Anime/Death-Parade" target="_blank">KissAnime</a> | <a id="rawrani" href="http://rawranime.tv/1408-death-parade/" target="_blank">RawrAnime</a></td>
+  		</tr>
+		</table>
+	</div>
+
+  <!--Options-->
+  <div id="list-section">Options</div>
+  <div id="list-content">
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">SHARE</td>
+      </tr>
+      <tr>
+        <td>Facebook | Twitter</td>
+      </tr>
+    </table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">COMMENTS</td>
+      </tr>
+      <tr>
+        <td>This post has no comments. You can make the first one below!</td>
+      </tr>
+    </table>
+    <table style="width:100%">
+      <tr>
+        <td id="list-title">LEAVE A COMMENT</td>
+      </tr>
+      <tr>
+        <td>
+          Name: <input type="text" class="comment-input"> (required)
+          <br>Email: <input type="email" class="comment-input"> (required, will not be published)
+          <br><textarea required></textarea>
+          <br><button type="submit">Submit Comment</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+	<!--Bottombar-->
+	<div id="bottombar">&copy 2015 Edward Hong | All images are copyright to their respective owners. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></div>
+</div>
+	
+</body>
+
+</html>
